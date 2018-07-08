@@ -22,7 +22,7 @@ p {
   margin: 30px 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 
@@ -60,7 +60,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 15px inherit;
 }
 
@@ -111,7 +111,7 @@ img {
 .navbar-custom {
   background-color: {{ site.navbar-col }};
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
   background-image: url({{ site.navbar-img }});
   background-attachment: fixed;
@@ -293,13 +293,15 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
   margin-bottom: 0;
 }
 footer .theme-by {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: center;
-  margin: 10px 0 0;
+  margin: 0px 0 0;
+  font-size: 12px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -310,7 +312,7 @@ footer .theme-by {
     font-size: 18px;
   }
   footer .copyright {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -318,7 +320,6 @@ footer .theme-by {
 
 .post-preview {
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
 }
 
 @media only screen and (min-width: 768px) {
@@ -353,13 +354,14 @@ footer .theme-by {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #808080;
+  color: #999999;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .post-entry-container {
   display: inline-block;
@@ -383,8 +385,19 @@ footer .theme-by {
   height: 192px;
   width: 192px;
 }
-.post-preview .post-read-more {
+
+.post-read-more {
+  width: 100%;
   font-weight: 800;
+  text-align: right;
+  margin-top: 10px;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.post-read-more a {
+  background-color: {{ site.navbar-col }};;
+  padding: 4px;
+  border-radius: 4px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -396,16 +409,18 @@ footer .theme-by {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
 }
 
 .blog-tags a {
-  color: {{ site.link-col }};
+  color: {{ site.navbar-text-col }};
   text-decoration: none;
   padding: 0px 5px;
+  background-color: {{ site.navbar-col }};
+  border-radius: 3px;
 }
 
 .blog-tags a:hover {
@@ -489,7 +504,7 @@ footer .theme-by {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -514,7 +529,7 @@ footer .theme-by {
   padding: 5px 10px;
   font-size: 11px;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -598,7 +613,7 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -767,7 +782,7 @@ td.gutter {
 }
 
 #full-tags-list {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #full-tags-list .tag-entry {
@@ -782,4 +797,12 @@ td.gutter {
   color: #808080;
   font-style: italic;
   font-size: 16px;
+}
+
+.card {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  background-color: #303030;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
