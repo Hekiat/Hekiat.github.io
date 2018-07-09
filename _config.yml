@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Project 悪狐
+title: Hekiat
 
 # Short description of your site
 description: An Indie Game dev report
@@ -147,6 +147,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 10
+future: true
 
 kramdown:
   input: GFM
