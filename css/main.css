@@ -134,7 +134,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: {{ site.hover-col }};
+  color: {{ site.navbar-hover-col }};
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -397,9 +397,16 @@ footer .theme-by {
 .post-read-more a {
   background-color: {{ site.navbar-col }};;
   padding: 4px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
+.post-read-more a:hover {
+  color: {{ site.navbar-col }};
+  background-color: #EEE;
+}
+
+
+site.navbar-hover-col
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
     font-size: 36px;
@@ -425,7 +432,7 @@ footer .theme-by {
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: {{ site.hover-col }};
+  color: {{ site.navbar-col }};
   background-color: #EEE;
 }
 
