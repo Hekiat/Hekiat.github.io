@@ -7,7 +7,7 @@ image: ../img/post/flame.gif
 ---
 
 
-That's the begining, the motivation overflow. 
+That's the beginning, the motivation overflow. 
 &nbsp;
 &nbsp;
 
