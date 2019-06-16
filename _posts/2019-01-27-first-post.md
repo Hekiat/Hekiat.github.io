@@ -13,8 +13,8 @@ That's the beginning, the motivation overflow.
 
 ## So what's the project?
 
-The first step is to make a **_prototype_** from scratch in approximatively **6 months**.
-Once the [_greybox_](http://jackw-gamedesign.tumblr.com/post/139960850160/what-is-greyboxing) is done, the road-map for the _production_ game will be decided. Probably starting with a [_vertical slice_](https://en.wikipedia.org/wiki/Vertical_slice).
+The first step is to make a **_prototype_** from scratch before the next Bit Summit.
+Once the [_greybox_](http://jackw-gamedesign.tumblr.com/post/139960850160/what-is-greyboxing) is done, I will try to plan a road-map for the entire game. Probably starting with a [_vertical slice_](https://en.wikipedia.org/wiki/Vertical_slice).
   
 ### Game Structure
 That's secret, but let's say a kind of T-RPG. I'm coming for you Tactics Ogre!
